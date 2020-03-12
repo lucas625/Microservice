@@ -1,5 +1,7 @@
 # Microservice
 
+[![Build Status](https://travis-ci.org/lucas625/Microservice.svg?branch=master)](https://travis-ci.org/lucas625/microservice) [![Coverage Status](https://coveralls.io/repos/github/lucas625/Microservice/badge.svg?branch=master)](https://coveralls.io/github/lucas625/Microservice?branch=master)
+
 Repository for Microservice classes and project.
 
 - [Microservice](#microservice)
