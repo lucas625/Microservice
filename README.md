@@ -15,9 +15,9 @@ Repository for Microservice classes and project.
 
 ## Team
 
-- Project Manager: [lucas625](https://github.com/lucas625)
-- Developer: [LucasThierry](https://github.com/LucasThierry)
-- Developer: [lionliu](https://github.com/lionliu)
+- Project Manager: [Lucas Aurelio](https://github.com/lucas625)
+- Developer: [Lucas Thierry](https://github.com/LucasThierry)
+- Developer: [Leão Liu](https://github.com/lionliu)
 
 ## Requirements
 
