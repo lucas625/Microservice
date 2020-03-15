@@ -90,13 +90,16 @@ After installing all dependencies, follow the next steps to run the project.
 ## Testing
 
 - Testing without coverage
-     ```python manage.py test --no-input --debug-mode```
+
+    ```python manage.py test --no-input --debug-mode```
 
 - Testing with coverage
-     ```coverage run manage.py test --no-input --debug-mode -v 2```
+
+    ```coverage run manage.py test --no-input --debug-mode -v 2```
 
 ## Additional Topics
 
 - Linter
   - Always run pylint for all packages and files and do the necessary fixes
+
     ```pylint --load-plugins pylint_django package_name```
