@@ -18,5 +18,3 @@ repos:
   - id: check-added-large-files
   - id: no-commit-to-branch
   - id: requirements-txt-fixer
-  - id: flake8
-    args: ['--ignore=F405,E501']

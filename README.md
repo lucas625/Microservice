@@ -5,23 +5,28 @@
 Repository for Microservice classes and project.
 
 - [Microservice](#microservice)
-  - [Authors](#authors)
+  - [Team](#team)
   - [Requirements](#requirements)
+  - [Guidelines](#guidelines)
   - [Installation](#installation)
-  - [Running The Project](#running-the-project)
+  - [Running the Project](#running-the-project)
   - [Testing](#testing)
+  - [Additional Topics](#additional-topics)
 
-## Authors
+## Team
 
-- [lucas625](https://github.com/lucas625)
-- [LucasThierry](https://github.com/LucasThierry)
-- [lionliu](https://github.com/lionliu)
+- Project Manager: [lucas625](https://github.com/lucas625)
+- Developer: [LucasThierry](https://github.com/LucasThierry)
+- Developer: [lionliu](https://github.com/lionliu)
 
 ## Requirements
 
-- Github
 - [Pyenv](https://github.com/pyenv/pyenv)
-- Python 3.7
+- [Pipenv](https://github.com/pypa/pipenv)
+
+## Guidelines
+
+- [The Twelve-Factor App](https://12factor.net/)
 
 ## Installation
 
@@ -48,6 +53,50 @@ Repository for Microservice classes and project.
 
     ```$ pre-commit install```
 
-## Running The Project
+## Running the Project
+
+After installing all dependencies, follow the next steps to run the project.
+
+1. Security
+
+   - Add environment variables to your current terminal
+        - Ubuntu
+
+            ```sh
+            export SECRET_KEY=$(python resources/scripts/get_secret_key.py)
+            export ALLOWED_HOSTS=$(python resources/scripts/get_allowed_hosts.py)
+            export DEBUG='True'
+            ```
+
+        - Windows
+
+            ```sh
+            set SECRET_KEY='Anything'
+            set ALLOWED_HOSTS='[*]'
+            set DEBUG='True'
+            ```
+
+2. Migrations
+
+    ```sh
+    python manage.py makemigrations
+    python manage.py migrate
+    ```
+
+3. Running the server
+
+    ```$ python manage.py runserver```
 
 ## Testing
+
+- Testing without coverage
+     ```python manage.py test --no-input --debug-mode```
+
+- Testing with coverage
+     ```coverage run manage.py test --no-input --debug-mode -v 2```
+
+## Additional Topics
+
+- Linter
+  - Always run pylint for all packages and files and do the necessary fixes
+    ```pylint --load-plugins pylint_django package_name```
