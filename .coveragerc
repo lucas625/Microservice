@@ -1,4 +1,8 @@
 [run]
 include=
+    core/*
+    Microservice/*
 
 omit =
+    manage.py
+    tests/*
