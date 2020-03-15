@@ -1,2 +1,3 @@
-#!/bin/bash
+#!/bin/sh
+
 start https://github.com/lucas625/Microservice/commits/master
