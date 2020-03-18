@@ -13,4 +13,4 @@ script:
   - pipenv run coverage html -d public/coverage
   - pipenv run coverage report -m
 after_success:
-  - coveralls
+  - bash <(curl -s https://codecov.io/bash)
