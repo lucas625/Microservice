@@ -1,5 +1,6 @@
 # Microservice
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9fb91b802dd5466c8e68173c43566e47)](https://app.codacy.com/manual/lucas625/Microservice?utm_source=github.com&utm_medium=referral&utm_content=lucas625/Microservice&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/lucas625/Microservice.svg?branch=master)](https://travis-ci.org/lucas625/microservice) [![Coverage Status](https://coveralls.io/repos/github/lucas625/Microservice/badge.svg?branch=master)](https://coveralls.io/github/lucas625/Microservice?branch=master)
 
 Repository for Microservice classes and project.
