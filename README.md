@@ -15,9 +15,9 @@ Repository for Microservice classes and project.
 
 ## Team
 
-- Project Manager: [Lucas Aurelio](https://github.com/lucas625)
-- Developer: [Lucas Thierry](https://github.com/LucasThierry)
-- Developer: [Leão Liu](https://github.com/lionliu)
+-   Project Manager: [Lucas Aurelio](https://github.com/lucas625)
+-   Developer: [Lucas Thierry](https://github.com/LucasThierry)
+-   Developer: [Leão Liu](https://github.com/lionliu)
 
 ## Requirements
 
@@ -38,16 +38,16 @@ Repository for Microservice classes and project.
     ```$ git clone https://github.com/lucas625/Microservice.git```
 
 3. Install [Pyenv](https://github.com/pyenv/pyenv)
-   - If you are using windows it might be easier to just install python 3.7
+   -   If you are using windows it might be easier to just install python 3.7
 
 4. Install [Pipenv](https://github.com/pyenv/pyenv)
 
 5. Setup environment
 
-    1. Go to project folder.
-    2. ```$ pipenv --python 3.7```
-    3. ```$ pipenv shell```
-    4. ```$ pipenv install --dev```
+    1.  Go to project folder.
+    2.  ```$ pipenv --python 3.7```
+    3.  ```$ pipenv shell```
+    4.  ```$ pipenv install --dev```
 
 6. Pre-commit
 
