@@ -1,7 +1,7 @@
 # !/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Core app urls module"""
+"""Core app urls module."""
 
 from django.urls import path
 from django.conf.urls import include

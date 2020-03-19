@@ -1,7 +1,7 @@
 # !/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Core app template model module"""
+"""Core app template model module."""
 
 from django.db import models
 
@@ -18,7 +18,7 @@ class TemplateModel(AbstractBasicModel):
 
     def __str__(self):
         """
-        :return str: template model name
+        :return str: template model name.
         """
         return self.full_name
 
