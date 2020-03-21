@@ -10,11 +10,12 @@ from core.models.abstract_model import AbstractBasicModel
 
 models.CharField.register_lookup(models.functions.Length)
 
+
 class TemplateModel(AbstractBasicModel):
     """
     Template Model
     """
-    full_name = models.CharField(max_length=150, null=True, verbose_name='Name')
+    full_name = models.CharField(unique=True, max_length=150, null=True, verbose_name='Name')
 
     def __str__(self):
         """
