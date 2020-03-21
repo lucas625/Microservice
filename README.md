@@ -4,52 +4,52 @@
 
 Repository for Microservice classes and project.
 
--   [Microservice](#microservice)
-  -   [Team](#team)
-  -   [Requirements](#requirements)
-  -   [Guidelines](#guidelines)
-  -   [Installation](#installation)
-  -   [Running the Project](#running-the-project)
-  -   [Testing](#testing)
-  -   [Additional Topics](#additional-topics)
+- [Microservice](#microservice)
+  - [Team](#team)
+  - [Requirements](#requirements)
+  - [Guidelines](#guidelines)
+  - [Installation](#installation)
+  - [Running the Project](#running-the-project)
+  - [Testing](#testing)
+  - [Additional Topics](#additional-topics)
 
 ## Team
 
--   Project Manager: [Lucas Aurelio](https://github.com/lucas625)
--   Developer: [Lucas Thierry](https://github.com/LucasThierry)
--   Developer: [Leão Liu](https://github.com/lionliu)
+- Project Manager: [Lucas Aurelio](https://github.com/lucas625)
+- Developer: [Lucas Thierry](https://github.com/LucasThierry)
+- Developer: [Leão Liu](https://github.com/lionliu)
 
 ## Requirements
 
--   [Pyenv](https://github.com/pyenv/pyenv)
--   [Pipenv](https://github.com/pypa/pipenv)
+- [Pyenv](https://github.com/pyenv/pyenv)
+- [Pipenv](https://github.com/pypa/pipenv)
 
 ## Guidelines
 
--   [The Twelve-Factor App](https://12factor.net/)
+- [The Twelve-Factor App](https://12factor.net/)
 
 ## Installation
 
-1.  Git
+1. Git
     Download [Git](https://git-scm.com/download/win)
 
-2.  Clone the project
+2. Clone the project
 
-   ```$ git clone https://github.com/lucas625/Microservice.git```
+    ```$ git clone https://github.com/lucas625/Microservice.git```
 
 3. Install [Pyenv](https://github.com/pyenv/pyenv)
-   -   If you are using windows it might be easier to just install python 3.7
+   - If you are using windows it might be easier to just install python 3.7
 
-4.  Install [Pipenv](https://github.com/pyenv/pyenv)
+4. Install [Pipenv](https://github.com/pyenv/pyenv)
 
-5.  Setup environment
+5. Setup environment
 
-    1.  Go to project folder.
-    2.  ```$ pipenv --python 3.7```
-    3.  ```$ pipenv shell```
-    4.  ```$ pipenv install --dev```
+    1. Go to project folder.
+    2. ```$ pipenv --python 3.7```
+    3. ```$ pipenv shell```
+    4. ```$ pipenv install --dev```
 
-6.  Pre-commit
+6. Pre-commit
 
     ```$ pre-commit install```
 
@@ -57,7 +57,7 @@ Repository for Microservice classes and project.
 
 After installing all dependencies, follow the next steps to run the project.
 
-1.  Security
+1. Security
 
    - Add environment variables to your current terminal
         - Ubuntu
@@ -76,7 +76,7 @@ After installing all dependencies, follow the next steps to run the project.
             set DEBUG='True'
             ```
 
-2.  Migrations
+2. Migrations
 
     ```sh
     python manage.py makemigrations
@@ -89,17 +89,17 @@ After installing all dependencies, follow the next steps to run the project.
 
 ## Testing
 
--   Testing without coverage
+- Testing without coverage
 
     ```python manage.py test --no-input --debug-mode```
 
--   Testing with coverage
+- Testing with coverage
 
     ```coverage run manage.py test --no-input --debug-mode -v 2```
 
 ## Additional Topics
 
--   Linter
-    - Always run pylint for all packages and files and do the necessary fixes
+- Linter
+  - Always run pylint for all packages and files and do the necessary fixes
 
-        ```pylint --load-plugins pylint_django package_name```
+    ```pylint --load-plugins pylint_django package_name```
